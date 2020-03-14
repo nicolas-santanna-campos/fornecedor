@@ -1,11 +1,11 @@
-package br.com.alura.miocroservice.fornecedor.crontroller;
+package br.com.alura.microservice.fornecedor.crontroller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.alura.miocroservice.fornecedor.model.InfoFornecedor;
-import br.com.alura.miocroservice.fornecedor.service.InfoService;
+import br.com.alura.microservice.fornecedor.model.InfoFornecedor;
+import br.com.alura.microservice.fornecedor.service.InfoService;
 
 @RestController
 @RequestMapping("/info")
